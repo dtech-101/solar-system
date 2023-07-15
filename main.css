@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url('https://images.wallpaperscraft.com/image/single/stars_star_glitter_129201_3840x2160.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+.sun
+{
+    position:absolute;
+    left: 45%;
+    top: 300px;
+}
+.mecury{
+    z-index: 1;
+    border-width: 0px;  
+    border-radius: 50%;
+    position: absolute;
+    left: 49%;
+    top: 350px;
+    overflow: hidden;
+    margin: auto;
+    animation: mecury 1.5s linear infinite;
+}
+.mecuryline{
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px;
+    margin: auto;
+    position: absolute;
+    left: 600px;
+    top: 282px;
+    animation: border 2s linear infinite;
+}
+ @keyframes mecury{
+    0%{
+        transform: rotate(0deg)translate(10px,-75px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)translate(10px,-75px) rotate(360deg);
+    }
+} 
+.venus{
+    z-index:2;
+    border-width: 0px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    left: 47.5%;
+    top: 330px;
+    animation: venus 3s linear infinite;
+}
+.venusline{
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 205px;
+    height: 205px;
+    margin: auto;
+    position: absolute;
+    left: 570px;
+    top: 255px;
+    animation: border 2s linear infinite;
+}
+@keyframes venus{
+    0%{
+        transform: rotate(0deg)translate(60px,-100px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)translate(60px,-100px) rotate(360deg);
+    }
+}
+.earth
+{
+    z-index:3;
+    border-width: 0px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    left: 46.1%;
+    top: 316px;
+    animation: earth 5s linear infinite;
+}
+.earthline
+{
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 266px;
+    height: 266px;
+    margin: auto;
+    position: absolute;
+    left: 540px;
+    top: 224px;
+    animation: border 2s linear infinite;
+}
+@keyframes earth{
+    0%{
+        transform: rotate(0deg)translate(60px,-140px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)translate(60px,-140px) rotate(360deg);
+    }
+}
+.mars{
+    z-index:4;
+    border-width: 0px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    left: 46.4%;
+    top: 311px;
+    animation: mars 6s linear infinite;
+}
+.marsline
+{
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    position: absolute;
+    left: 498px;
+    top: 183px;
+    animation: border 2s linear infinite;
+}
+@keyframes border {
+    to{rotate: 360deg;}
+}
+@keyframes mars{
+    0%{
+        transform: rotate(0deg)translate(60px,-187px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)translate(60px,-187px) rotate(360deg);
+    }
+}
+.jupiter
+{
+    z-index:5;
+    border-width: 0px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    left: 44.9%;
+    top: 295px;
+    animation: jupiter 15s linear infinite; 
+}.jupiterline
+{
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    position: absolute;
+    left: 450px;
+    top: 135px;
+    animation: border 2s linear infinite;
+}
+@keyframes jupiter{
+     0%{
+        transform: rotate(0deg)translate(60px,-242px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)translate(60px,-242px) rotate(360deg);
+    } 
+ }
+.sarturn
+{
+    z-index:6;
+    border-width: 0px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    left: 44.5%;
+    top: 292px;
+    animation: sarturn 19s linear infinite; 
+}
+.sarturnline
+{
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    position: absolute;
+    left: 380px;
+    top: 60px;
+    animation: border 2s linear infinite;
+}
+@keyframes sarturn{
+    0%{
+       transform: rotate(0deg)translate(60px,-305px) rotate(0deg);
+   }
+   100%{
+       transform: rotate(360deg)translate(60px,-305px) rotate(360deg);
+   } 
+}
